@@ -11,7 +11,6 @@ div{
     padding: 0;
     width: 15rem;
     height: 15rem;
-    background-color:burlywood;
     border: .05rem solid #000000;
     margin-top: 1rem;
 }
@@ -133,4 +132,22 @@ div{
     clear:inherit;
     transform: translateX(-50%);
     left:50%;
+}
+
+
+
+@media only screen and ( max-width:700px){
+
+    .top{
+        margin: 0 auto;
+        background-color: lawngreen;
+        display:inline-block;
+    }
+    
+    
+    .under{
+        margin: 0 auto;
+        background-color: red;
+        display: inline-block;
+    }
 }
