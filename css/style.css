@@ -10,8 +10,8 @@ div{
     
     margin: 0 auto;
     padding: 0;
-    width: 25rem; 
-    height: 25rem;
+    width: 20rem; 
+    height: 20rem;
     border: .05rem solid #000000;
     margin-top: 1rem;
 }
@@ -59,7 +59,6 @@ div{
     float: right;
     clear: both;
     top: 50%;
-    transform: translateY(50%);
 }
 
 /* used on dice 3,4,5,6 */
@@ -74,7 +73,7 @@ div{
     display: block;
     border-radius: 5rem;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     clear:both;
 }
 
@@ -90,9 +89,9 @@ div{
     display: block;
     border-radius: 5rem;
     float: right;
+    clear: both;
     top:-50%;
-    transform: translateY(-50%);
-    clear:both;
+    transform: translateY(-100%);
 }
 
 #five-only{
@@ -105,8 +104,8 @@ div{
     display: block;
     border-radius: 5rem;
     clear: both;
-    top: -50%;
-    transform: translateY(50%);
+    top: -100%;
+    transform: translateY(150%);
     
 }
 
@@ -124,7 +123,7 @@ div{
     clear: both;
     float: left;
     top: -50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
 }
 
 #mid-cntr-six{
@@ -137,9 +136,9 @@ div{
     display: block;
     border-radius: 5rem;
     clear:both;
-    top: -50%;
-    transform: translateY(-50%);
     float: right;
+    top: -50%;
+    transform: translateY(-150%);
 }
 
 
