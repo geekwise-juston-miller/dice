@@ -7,13 +7,13 @@ html, body{
 div{
     margin: 0 auto;
     padding: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     background-color:burlywood;
     border: .05rem solid #000000;
     margin-top: 1rem;
 }
-
+/* used on dice 1,5 */
 .one{
     position: relative;
     margin: 0 auto;
@@ -27,12 +27,63 @@ div{
     transform: translateY(-50%);
 }
 
-.two{}
+/* used on dice 2,3*/
 
-.three{}
+.one-t-left{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    float: left;
+}
 
-.four{}
+.two-b-right{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    float: right;
+    top:50%;
+    transform: translateY(50%);
+    
+}
 
-.five{}
+/* used on dice 3, */
 
-.six{}
+.three-mid{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+/* dice #6 */
+
+.one-t-left{}
+
+.two-t-right{}
+
+.three-m-left{}
+
+.four-m-right{}
+
+.five-b-left{}
+
+.six-b-right{}
