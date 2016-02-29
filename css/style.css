@@ -7,14 +7,25 @@ html, body{
 div{
     margin: 0 auto;
     padding: 0;
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
     background-color:burlywood;
     border: .05rem solid #000000;
     margin-top: 1rem;
 }
 
-.one{}
+.one{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .two{}
 
