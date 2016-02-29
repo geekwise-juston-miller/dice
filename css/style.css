@@ -148,8 +148,27 @@ div{
 
     .top{
         margin: 0 auto;
+        padding: 0;
         background-color: lawngreen;
         display:inline-block;
+    }
+    
+    
+    .under{
+        margin: 0 auto;
+        padding: 0;
+        background-color: red;
+        display:inline-block;
+    }
+}
+/*
+
+@media only screen and ( max-width:600px){
+    .top{
+        margin: 0 auto;
+        background-color: lawngreen;
+        display:inline-block;
+        
     }
     
     
@@ -158,4 +177,6 @@ div{
         background-color: red;
         display: inline-block;
     }
-}
+    
+    
+}*/
