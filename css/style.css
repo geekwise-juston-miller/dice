@@ -15,7 +15,8 @@ div{
     border: .05rem solid #000000;
     margin-top: 1rem;
 }
-/* used on dice 1,3,5 */
+/* used on dice 1,3 */
+
 .five-mid-cntr{
     position: relative;
     margin: 0 auto;
@@ -60,7 +61,7 @@ div{
     
 }
 
-/* used on dice 4,5,6 */
+/* used on dice 3,4,5,6 */
 
 .three-b-left{
     position: relative;
@@ -75,6 +76,8 @@ div{
     transform: translateY(50%);
     clear:inherit;
 }
+
+/* used on dice 4,5,6 */
 
 .four-t-right{
     position:relative;
@@ -91,19 +94,43 @@ div{
     clear: all;
 }
 
-
-
+#five-only{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    
+}
 
 /* dice #6 */
 
-.one-t-left{}
+#mid-cntr-five{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    clear: all;
+    float: left;
+}
 
-.two-t-right{}
-
-.three-m-left{}
-
-.four-m-right{}
-
-.five-b-left{}
-
-.six-b-right{}
+#mid-cntr-six{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 5rem;
+    height: 5rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 5rem;
+    clear:inherit;
+    transform: translateX(-50%);
+    left:50%;
+}
