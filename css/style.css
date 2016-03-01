@@ -12,8 +12,8 @@ html, body{
 .dice{
     width: 20rem;
     height: 20rem;
-    border: .5rem solid #000000;
-    border-radius: 5rem;
+    border: .6rem solid #000000;
+    border-radius: 4rem;
     display: block;
     box-sizing: border-box;
 }
@@ -35,9 +35,9 @@ html, body{
     
 }
 
-.space_dice{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.margin{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
 }
 
@@ -46,5 +46,11 @@ html, body{
     top:50%;
     transform: translateY(-50%);
         
+}
+
+.top{
+    position: relative;
+    top:2rem;
+    
 }
 
