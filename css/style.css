@@ -41,8 +41,9 @@ html, body{
 }
 
 .right_float{
+    clear: both;
     float: right;
-    
+
 }
 
 .top{
@@ -63,4 +64,18 @@ html, body{
     
 }
 
+.five{
+    margin: 0 auto;
+    top: 3.5rem;
+}
 
+.one{
+    margin: 0 auto;
+    top: 7rem;
+    
+}
+
+.hidden{
+    visibility: hidden;
+    
+}
