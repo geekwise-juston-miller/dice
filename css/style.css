@@ -146,23 +146,27 @@ div{
 @media only screen and ( max-width:800px){
 
     .top{
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         background-color: lawngreen;
         display:inline-block;
+        transform: scale(.8);
+        border-radius: 2rem;
     }
     
     
     .under{
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         background-color: red;
-        display:inline-block;
+        display: inline-block;
+        transform: scale(.8);
+        border-radius: 2rem;
     }
 }
 
 
-@media only screen and ( max-width:600px){
+@media only screen and ( max-width:612px){
     
 .top:nth-of-type(1){
         position: relative;
