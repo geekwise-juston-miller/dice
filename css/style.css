@@ -84,19 +84,26 @@ html, body{
     div{
         transform: scale(.8) rotate(10deg);
     }
+    div:nth-of-type(2){
+        visibility: hidden;
+    }
 }
     
 @media only screen and (max-width: 800px){
     div{
         transform: scale(.8) rotate(20deg);
     }
-    
+
 }
 
 
 @media only screen and (max-width: 750px){
     div{
         transform: scale(.8) rotate(30deg);
+    }
+        
+    div:nth-of-type(2){
+        visibility: visible;
     }
 }
     
